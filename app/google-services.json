@@ -1,0 +1,116 @@
+{
+  "project_info": {
+    "project_number": "289846546007",
+    "firebase_url": "https://watchful-scope-128605.firebaseio.com",
+    "project_id": "watchful-scope-128605"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289846546007:android:768cfb4cfd381385",
+        "android_client_info": {
+          "package_name": "com.android.imrancse.obdclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289846546007-u0cv7p7tfh23mtl0bhrb1vblnru3b29d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJB_2hPNYE2P8LuHlBYUZuT_LOOLH00xs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289846546007:android:76527d69af452729",
+        "android_client_info": {
+          "package_name": "com.sinch.apptoappcall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289846546007-u0cv7p7tfh23mtl0bhrb1vblnru3b29d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJB_2hPNYE2P8LuHlBYUZuT_LOOLH00xs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289846546007:android:a7db99006eee1d63",
+        "android_client_info": {
+          "package_name": "com.sinch.workshopskeleton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289846546007-0qb4dbrmag2frviaeq8uao6qhqumkkrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sinch.workshopskeleton",
+            "certificate_hash": "3713995ccfe701bc0126ecbde77313fd32eefa5b"
+          }
+        },
+        {
+          "client_id": "289846546007-u0cv7p7tfh23mtl0bhrb1vblnru3b29d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJB_2hPNYE2P8LuHlBYUZuT_LOOLH00xs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289846546007-u0cv7p7tfh23mtl0bhrb1vblnru3b29d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

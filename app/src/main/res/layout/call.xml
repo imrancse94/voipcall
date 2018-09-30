@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/ringing_bg"
+    tools:context="com.sinch.apptoappcall.CallActivity">
+
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+     <LinearLayout
+         android:layout_weight="1"
+         android:id="@+id/fl"
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <TextView
+             android:padding="10dp"
+             android:gravity="center"
+             android:textColor="@color/white"
+             android:textSize="20dp"
+             android:text="Client name"
+             android:id="@+id/clientname"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+
+
+         <TextView
+             android:padding="10dp"
+             android:textSize="15dp"
+             android:textColor="@color/white"
+             android:gravity="center"
+             android:text="calling..."
+             android:id="@+id/callstate"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_marginEnd="10dp"
+         android:layout_weight="5"
+         android:padding="16dp"
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="10dp">
+
+         <TextView
+             android:layout_gravity="center"
+             android:background="@drawable/ic_account_circle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+     </LinearLayout>
+
+
+     <LinearLayout
+         android:layout_weight="5"
+         android:layout_marginEnd="10dp"
+         android:padding="16dp"
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_marginRight="10dp">
+<LinearLayout
+    android:gravity="center"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+         <ImageButton
+             android:id="@+id/cancel"
+             android:layout_gravity="center"
+             android:background="@drawable/ic_call_stop_icon"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+</LinearLayout>
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+         <ImageButton
+             android:scaleX="-1"
+             android:id="@+id/receive"
+             android:background="@drawable/ic_call_icon"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+</LinearLayout>
+     </LinearLayout>
+
+
+ </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

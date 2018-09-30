@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple">#63029D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ringing_bg">#0288D1</color>
+    <color name="TRANS_BLACK">#BF000000</color>
+</resources>
